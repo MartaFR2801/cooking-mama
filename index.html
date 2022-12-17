@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>replit</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="game"> 
+				<div class="canvas hidden"> 
+			<canvas id="canvas-test" width="800" height="500"></canvas>
+		</div>
+		<div class="pepe-intro">
+		<img class="start-img" src="./images/portada.png" alt="portada demo">
+		<p style="color:#FF0000";>Click on the Chef to continue</p>
+		</div>
+		<div class="pepe-text hidden">
+			<img class="start-img" src="./images/chef_text.png" alt="Chef cooking something">
+			<p style="color:#FF0000";>Click on the Chef to continue</p>
+		</div>
+		<div class="instrucciones hidden">
+			<img class="start-img" src="./images/how.png" alt="instrucciones" width="800" height="500">
+			<p style="color:#FF0000";>Click on the Start</p>
+		</div>
+
+	</div>
+
+	<div id="game-controls">
+		<button id="start-btn">Start</button> 
+		<button id="tryAgain-btn" onclick="window.location.reload()">Try Again</button>
+	</div>
+
+
+	<script src="./js/chef.js"></script>
+    <script src="./js/ingredient.js"></script>
+    <script src="./js/background.js"></script>
+    <script src="./js/game.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+<body style="background-color:rgba(180, 159, 159, 0.5);">
+</body>
